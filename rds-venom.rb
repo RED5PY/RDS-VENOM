@@ -31,7 +31,7 @@ if $option == "1" then
    #system("payload.rb")
 elsif $option == "2" then
    puts "starting auto admin whatsapp".green
-   #system("dos.py")
+   system("dos.py")
 elsif $option == "3" then
    puts "starting number report".green
   # system("torsec.sh")
